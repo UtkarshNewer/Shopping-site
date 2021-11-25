@@ -17,6 +17,7 @@ export default function PlaceOrder() {
           <td className="border px-2">{title}</td>
           <td className="border px-2">{size}</td>
           <td className="border px-2">{price}</td>
+          
           <td className="border px-2">{quantity===undefined ? 1: quantity}</td>
         </tr>
       );
